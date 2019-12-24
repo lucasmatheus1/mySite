@@ -5,49 +5,45 @@
 
 body{
     font-family: monospace;
-    background: #fff;
+    background: url(../img/fundo.png);
     margin: 15px;
 }
 
 #container{
-    background: #8df29f;
     margin:0 auto;
-    min-width: 740px;
-    max-width: 1181px;
+    min-width: 400px;
+    max-width: 1180px;
 }
 
 #topo {
+    
     position: relative;
-    background: #8dadf2;
-    height: 15.4em;
-    min-height: 200px;
+    width: 100%;
+    min-height: 240px;
     
 }
 
 #area-logo {
-	position: absolute;
-    background: #171aa1 no-repeat;
-    width: 100%;
     
-    height: 250px;
+	position: absolute;
+    background: rgb(0, 0, 0,.0);
+    width: 100%;
+    height: 240px;
     top: 0;
     left: 0;
     z-index: 1;
-	
+
 }
 
-.logo a {
+.logo a{
+    background: url(../img/logo.png) no-repeat;
     position: absolute;
-    top: 15px;
-    left: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 322px;
+    height: 118px;
     
-    z-index: 3;
-    background: #51a64e no-repeat;
-    color: #fff;
-	width: 200px;
-    height: 66px;
-    text-align: center;
-    line-height: 48px;
 }
 
 #area-menu {
@@ -56,10 +52,10 @@ body{
     top: 15px;
     left: 70%;
     right: 5em;
-	background: #ff9959 no-repeat;
+	background: rgb(0, 0, 0,.88);
 	width: 250px;
     height: 250px;
-
+    border-radius: 10px;
     
 	z-index: 2;
 }
@@ -68,7 +64,6 @@ body{
 	margin-left: 25px;
 	margin-right: 15px;
     padding-top: 15px;
-    
 }
 
 a{
@@ -89,7 +84,7 @@ ul#navegacao {
 
 ul#navegacao a {
 	text-transform: uppercase;
-	font-size: 0.8em;
+	font-size: 1.2em;
 	padding: 5px;
 	color: #fff;
 	line-height: 30px;
@@ -97,4 +92,43 @@ ul#navegacao a {
 
 ul#navegacao a:hover {
 	background: #000;
+}
+
+#area-principal{
+    border: 1px solid black;
+    background: rgb(0, 0, 0, .9);
+    opacity: 0.95;
+    margin-top: 40px;
+    height: 1000px;
+    border-radius: 10px;
+}
+
+#area-conteudo{
+    
+    margin: 15px 15px 15px 15px;
+    background: #fff;
+}
+#conteudo{
+    margin: 15px 15px 15px 15px;
+    margin-top: 35px;
+    height: 900px;
+}
+
+#conteudo h1{
+    
+    text-align: center;
+    line-height: 70px;
+    margin-bottom: 1px;
+}
+
+#conteudo p{
+    font-size: large;
+
+}
+
+#rodape{
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 45px;
+    height: 50px;
 }
