@@ -1,6 +1,6 @@
 ## Site pessoal
 
-![](media/foto.png)
+![](media/foto.PNG)
 
 ### Ideia
 
